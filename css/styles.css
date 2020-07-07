@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;  
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto
+    }
+
+article{
+        flex:2;
+	overflow-y:auto;
+       }
+
+aside{
+      flex:1;
+      overflow-y:auto;
+}
+
+#two {
+    background-color:#008FC7;
+}
+#tres {background-color:#C8E7E9;
+      }
+.j1 {color:#FEEDF6;
+    }
+.j2 {color:#4D2C3F ;
+    }
+       
